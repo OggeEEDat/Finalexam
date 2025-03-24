@@ -40,8 +40,14 @@
  }
 
  #Simg {
-    padding-left: 90px;
+    padding-left: 85px;
     padding-top: 10px;
+ }
+ #SidB
+ {
+    position: relative;
+    padding-left: 350px ;
+    top:-80px;
  }
 
 
