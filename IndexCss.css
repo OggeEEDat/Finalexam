@@ -4,7 +4,8 @@
       color: white;
       mask-image: ATS ;
       overflow-x: hidden;
-    background-color: darkgreen;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
   a {
@@ -16,14 +17,24 @@
  color:black
 }
   #id {
-         background-color: darkgoldenrod;
+         background-color: #24422d;
          margin-top: -10px;
          margin-right: -10px;
          margin-left: -10px;
          margin-bottom: -10px;
          padding: 10px;
+         padding-top: 15px;
+         
   }
  #bar{
     display: grid;
-    grid-template-columns: 7fr 1fr 1fr 1fr;
+    padding-top: 5px;
+    padding-left:50px ;
+    padding-bottom: 2px;
+    grid-template-columns: 7.5fr 1fr 1fr 1fr;
+ }
+
+ #Hell {
+ position: relative;
+ top: 10000px;
  }
