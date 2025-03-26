@@ -30,18 +30,31 @@
     <a href="#">Services</a>
     <a href="#">Clients</a>
     <a href="#">Contact</a>
+    <a href="#"> #</a>
+    <a href="#"> #</a>
+    <a href="#"> #</a>
+
   </div>
-  <h2>Animated Sidenav Example</h2>
-<p>Click on the element below to open the side navigation menu.</p>
-<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+<div id="Mörker" class="Mörk">
+    <a href="#" onclick="closeNav()" class="Close" id="Closes"></a>
+</div>
+
 
 <script>
 function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("Mörker").style.width = "100%";
+  document.getElementById("Mörker").style.backgroundColor = "#11111156";
+  document.getElementById("Mörker").style.zIndex = 4;
+  document.getElementById("Closes").style.zIndex = 4;
 }
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("Mörker").style.backgroundColor = "transparent";
+  document.getElementById("Mörker").style.zIndex = -10;
+  document.getElementById("Closes").style.zIndex = -10;
 }
 </script>
 <div id ="Hell"> hej min</div>
