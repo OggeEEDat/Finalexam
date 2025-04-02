@@ -59,9 +59,9 @@
     z-index: 12;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #24422d;
     overflow-x: hidden;
-    transition: 0.3s;
+    transition: 0.s;
     padding-top: 60px;
   }
   
@@ -71,7 +71,7 @@
     font-size: 25px;
     color: #818181;
     display: block;
-    transition: 0.3s;
+    transition: 0.1s;
   }
   
   .sidenav a:hover {
@@ -100,7 +100,7 @@
     left: 0;
     background-color: transparent;
     overflow-x: hidden;
-    transition: 0.4s;
+    transition: 0.1s;
     padding-top: 60px;
   }
 
@@ -113,7 +113,7 @@
     left: 0;
     background-color: transparent;
     overflow-x: hidden;
-    transition: 0.4s;
+    transition: 0.1s;
     padding-top: 60px;
   }
   .Bar {
@@ -123,7 +123,16 @@
   margin: 3px ;
   border-radius: 50px;
   height: 40px;
-  width: 405px;
-  left: 470px;
-  top:-125px;
+  width: 385px;
+  left: 550px;
+  top:-150px;
+  background-image: url('Bilder/Sok.svg');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding-left: 35px;
+  }
+
+  .boxsidebar:hover {
+  background-color: #efe5d0;
+  color: #24422d;
   }
