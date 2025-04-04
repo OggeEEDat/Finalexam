@@ -75,7 +75,8 @@
   }
   
   .sidenav a:hover {
-    color: #f1f1f1;
+    color: #24422d;
+    transition: 0s;
   }
   
   .sidenav .closebtn {
@@ -137,6 +138,23 @@
   color: #24422d;
   }
 
+  .boxsidebarsheep:hover {
+    background-color: #efe5d0;
+    color: #24422d;
+  }
+
+  .boxsidebarsheep:hover .overlay {
+    background-color: #efe5d0;
+    opacity:1;
+    
+  }
+  .overlay {
+    position: relative;
+    width: 50px;
+    left:-84px;
+    opacity:0;
+    transition: 100ms
+  }
   #moveprod{
     position: relative;
     color: black; font-size: large;
