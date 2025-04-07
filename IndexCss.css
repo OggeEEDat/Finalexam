@@ -133,6 +133,14 @@
   padding-left: 35px;
   }
 
+  .boxsidebar {
+    border-bottom: 1px solid hsla(0,0%,100%, .1);
+  }
+
+  .boxsidebarsheep {
+    border-bottom: 1px solid hsla(0,0%,100%, .1);
+  }
+
   .boxsidebar:hover {
   background-color: #efe5d0;
   color: #24422d;
