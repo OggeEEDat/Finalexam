@@ -46,8 +46,8 @@
  #SidB
  {
     position: relative;
-    padding-left: 345px ;
-    top:-75px;
+    left: 345px ;
+    bottom:75px;
  }
 
 
@@ -169,13 +169,23 @@
     left: 400px;
     top: -115px;
   }
-
-  .Hogersida {
-    
-  }
   #konta{
-    
+    position: relative;
+    left: 1157px;
+    bottom: 223px;
   }
   #logga {
-
+position: relative;
+left: 1175px;
+bottom:220px;
   }
+#kassa {
+  position: relative;
+  left: 1195px;
+  bottom: 220px;
+}
+#hors {
+  position:relative;
+  left: 50px;
+  bottom: 190px;
+}
