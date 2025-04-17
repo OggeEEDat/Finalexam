@@ -273,3 +273,51 @@ bottom:220px;
   bottom: 230px;
 }
 
+#kanske {
+  position: relative;
+  left: 70px;
+  bottom: 100px;
+}
+
+#shop-1 { 
+position: relative;
+padding-left: 20px;
+}
+#shop-2 { 
+  position: relative;
+  padding-left: 20px;
+}
+#shop-3 { 
+  position: relative;
+  padding-left:20px ;
+}
+#shop-4 { 
+  position: relative;
+  padding-left: 20px;
+}
+
+#chickenbilder {
+  position: relative;
+ padding-left: 40px;
+ top: 60px;
+}
+
+
+.dot {
+  position:relative;
+  left:300px;
+  top: 300px;
+  height: 300px;
+  width: 300px;
+  font-size: 50px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f1e6;
+  border-radius: 50%;
+}
+
+.dot:hover {
+  background-color: #24422d;
+}
